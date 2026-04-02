@@ -1,0 +1,15 @@
+.card {
+  width: 400px;   /* avant 300px */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card img {
+  width: 100%;
+  height: 250px;   /* rend l’image plus longue */
+  object-fit: cover; /* évite qu’elle soit déformée */
+  display: block;
+}
